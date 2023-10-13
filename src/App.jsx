@@ -15,7 +15,7 @@ Chart.register(CategoryScale, ArcElement, Tooltip, Legend);
 
 const App = () => {
 	const CLERK_PUBLISHABLE_KEY =
-	process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
+	"pk_test_b3V0Z29pbmctcGlnZW9uLTE3LmNsZXJrLmFjY291bnRzLmRldiQ";
 	const navigate = useNavigate();
 	return (
 		<ClerkProvider
